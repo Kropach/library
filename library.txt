@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 War and peace:Tolstoy
 Fathers and Sons:Turgenev
 Eugene Onegin:Pushkin
@@ -6,4 +7,14 @@ Dubrovsky:Pushkin
 Childhood:Tolstoy
 The Cherry Orchard:Chekhov
 Anna Karenina:Tolstoy
+=======
+War and peace:Tolstoy
+Fathers and Sons:Turgenev
+Eugene Onegin:Pushkin
+Ward 6:Chekhov
+Dubrovsky:Pushkin
+Childhood:Tolstoy
+The Cherry Orchard:Chekhov
+Anna Karenina:Tolstoy
+>>>>>>> 8a32a8fba227b26c9cf2c2b0bcee0afa17c08324
 Mumu:Turgenev
