@@ -1,12 +1,13 @@
 package ru;
 
+import org.jetbrains.annotations.NotNull;
 import ru.mail.Book;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    private List<Book> books;
+    private @NotNull List<Book> books;
 
     public Library() {
         books = new ArrayList<>();

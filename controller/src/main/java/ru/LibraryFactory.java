@@ -2,20 +2,15 @@ package ru;
 
 import ru.mail.Author;
 import ru.mail.Book;
-
 import java.io.*;
 
-public class Factory {
-    public Factory() {
-    }
-
-    public Library create(){
-        return new Library();
+public class LibraryFactory {
+    public LibraryFactory() {
     }
 
     public Library createLibrary(String path) {
         File file = new File(path);
-        Library l = create();
+        Library l = new Library();
         try {
             FileReader fr = new FileReader(file);
             BufferedReader reader = new BufferedReader(fr);

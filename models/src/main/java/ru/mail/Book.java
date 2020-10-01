@@ -1,8 +1,9 @@
 package ru.mail;
 
 import lombok.Data;
+import org.jetbrains.annotations.NotNull;
 
 public @Data class Book {
-    private final String title;
+    private @NotNull final String title;
     private final Author author;
 }
